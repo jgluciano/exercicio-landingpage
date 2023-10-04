@@ -30,7 +30,7 @@ body {
   text-align: center;
 }
 
-#reservas {
+#reservas .pt-5 .mb-5 {
   margin-top: 110px;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .nav-cardapio {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 .img-produto img {
@@ -186,13 +186,116 @@ body {
 }
 
 .background-footer {
-    padding: 12px;
-    background-color: var(--color-blue);
+  padding: 12px;
+  background-color: var(--color-blue);
 }
 .rodape {
-    color: var(--color-yellow);
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-    align-items: center;
+  color: var(--color-yellow);
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+.navbar-brand img {
+    width: 55px;
+}
+
+  .carousel-item img {
+    width: 700px;
+    height: 220px;
+    margin-left: -160px;
+  }
+
+  .carousel i {
+    font-size: 32px;
+  }
+
+  .carousel.slide {
+    margin-bottom: 30px !important;
+  }
+
+  .img-sercico {
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  .fs-title h2 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  #reservas {
+    padding-top: -10px !important;
+    margin-top: 0px !important;
+  }
+
+  .img-reserva img {
+    display: none !important;
+  }
+
+  #cardapio{
+    margin-top: 40px !important;
+    padding-top: 40px !important;
+  }
+  
+  #contato {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .btn.btn-white {
+    font-size: 11px;
+    width: 110px !important;
+    margin-bottom: 5px;
+    padding: 10px !important;
+  }
+
+  .card-item {
+    width: 100px;
+  }
+
+  .title-produto {
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+  }
+
+  .card-item p {
+    font-size: 10px;
+    padding: 0px;
+  }
+
+  .img-produto img {
+    width: 100px;
+  }
+
+  .tab-pane .col-3 {
+    width: 33%;
+  }
+
+  .nav-cardapio {
+    margin-left: 0px;
+  }
+  
+  .btn-cardapio {
+margin-left: 12px;
+  }
+
+  .section-social{
+    margin-top: 30px;
+  }
+
+  .bi.bi-instagram {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .social-links {
+    margin-left: -40px;
+  }
+
+  .rodape {
+    font-size: 10px;
+  }
 }
